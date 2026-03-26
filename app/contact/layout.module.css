@@ -1,0 +1,56 @@
+.Layout {
+  display: flex;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  flex-shrink: 0;
+  padding: 16px;
+  background-color: slateblue;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  border-radius: 10px;
+  margin-right: 1.5rem;
+  gap: 1rem;
+}
+
+.Subtitle {
+  margin-bottom: 4px;
+  padding-left: 12px;
+}
+
+.Menu ul {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.Menu a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+
+
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.div{
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.div img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+

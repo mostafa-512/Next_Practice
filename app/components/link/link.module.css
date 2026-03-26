@@ -1,0 +1,20 @@
+.MenuLink{
+  /* display: block; */
+  width: 100%;
+  list-style-type: none;
+}
+
+
+
+.MenuLink  a {
+  padding: 0.50rem;
+  border-radius: 8px;
+
+}
+
+
+.MenuLink :hover,
+.MenuLink [data-active=true]{
+  background-color: darkslateblue;
+
+}

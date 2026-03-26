@@ -1,0 +1,50 @@
+
+.ul a{
+
+    padding: 0;
+}
+.ul li {
+    width: 15rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.ul .li {
+    /* display: none; */
+ list-style: none !important;
+ gap: 2rem;
+ border: 2px solid rebeccapurple;
+ border-radius: 10px;
+ /* width: 15rem; */
+}
+
+.ul{
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 0.5rem;
+}
+
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+
+.div img{
+    border-radius: 10px;
+}
