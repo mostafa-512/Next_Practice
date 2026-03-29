@@ -20,6 +20,12 @@
  border-radius: 10px;
  /* width: 15rem; */
 }
+.FavBtn{
+    display: flex;
+    flex-direction: row;
+    /* margin: 1rem 0; */
+    width: 100%;
+}
 
 .ul{
     height: 100vh;

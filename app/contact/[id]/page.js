@@ -1,10 +1,12 @@
-import { CONTACTS_MOCK } from "@/Mock/contacts";
 import style from "./page.module.css"
 async function  ContactViewer  ({params}) {
   const { id } = await params;
-  const contact = CONTACTS_MOCK.find((contact)=>(
+  const data = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}`)
+  const c = await data.json()
+  const contact = c.find((contact)=>(
     contact.id == id
   ));
+
 
 //     const contact = CONTACTS_MOCK.filter((contact)=>(
 //     contact.id == id
